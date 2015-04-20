@@ -1106,9 +1106,9 @@ class CRM_Mbreportslegevelden_Form_Report_DossierLegeVelden extends CRM_Report_F
     
   private function createTempTable(){
     /*$sql = "CREATE TEMPORARY TABLE IF NOT EXISTS dossier_lege_velden (*/  
-    $sql = "CREATE TABLE IF NOT EXISTS dossier_lege_velden (
+    /*$sql = "CREATE TABLE IF NOT EXISTS dossier_lege_velden (*/
     
-
+    $sql = "CREATE TEMPORARY TABLE IF NOT EXISTS dossier_lege_velden (
       case_id INT(11),
       case_subject VARCHAR(128),
       case_type_id VARCHAR(128),
